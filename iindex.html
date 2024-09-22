@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="Audio/midnight.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#what-is-mental-health">What is Mental Health?</a></li>
+                    <li><a href="#importance">Why It's Important</a></li>
+                    <li><a href="#tips">Tips for Well-being</a></li>
+                    <li><a href="#challenges">Mental Health Challenges</a></li>
+                    <li><a href="#get-help">Get Help</a></li>
+                    <li><button id="music-toggle" class="music-toggle" aria-label="Toggle background music">🎵</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="fade-in">Welcome to Mental Health Awareness</h1>
+                <div class="hero-content">
+                    <img src="Images/m1.jpg" alt="Peaceful scene representing mental well-being" class="fade-in hero-image">
+                    <div class="hero-text fade-in">
+                        <p>Discover the importance of mental health and how it shapes our overall well-being.</p>
+                        <p>Our mental health affects every aspect of our lives, from our relationships to our productivity and overall happiness. Join us on a journey to better understand and improve your mental well-being.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+
+        <section id="what-is-mental-health" class="content-section">
+            <div class="container">
+                <h2 class="slide-in">What is Mental Health?</h2>
+                <div class="content-wrapper">
+                    <div class="text-content slide-in">
+                        <p>Mental health encompasses our emotional, psychological, and social well-being. It affects how we think, feel, and act, influencing our daily lives and relationships.</p>
+                        <p>Good mental health is not just the absence of mental health problems. It's about feeling positive about yourself, being able to cope with everyday pressures, and being able to form and maintain relationships.</p>
+                    </div>
+                    <img src="Images/mental2.jpg" alt="Infographic showing positive vs. negative mental health states" class="slide-in content-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="importance" class="content-section">
+            <div class="container">
+                <h2 class="slide-in">Why Mental Health is Important</h2>
+                <div class="content-wrapper">
+                    <ul class="slide-in importance-list">
+                        <li>Enhances overall quality of life</li>
+                        <li>Improves physical health and longevity</li>
+                        <li>Boosts productivity and relationships</li>
+                        <li>Helps in coping with life's challenges</li>
+                        <li>Contributes to community and society</li>
+                    </ul>
+                    <div class="video-container slide-in">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/y-ACcDIGi-c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <p class="slide-in">Mental health is fundamental to our collective and individual ability as humans to think, emote, interact with each other, earn a living and enjoy life.</p>
+                <div class="additional-content slide-in">
+                    <div class="bicycle-animation">
+                        <div class="bicycle-rider"></div>
+                    </div>
+                    <p>So that we are well enough to cope with everyday life and feel content with our relationships, our abilities and our potential.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="content-section">
+            <div class="container">
+                <h2 class="slide-in">Tips for Maintaining Good Mental Health</h2>
+                <ul class="tip-list">
+                    <li class="tip-item slide-in">
+                        <h3>Practice mindfulness and meditation</h3>
+                        <p>Mindfulness helps reduce stress and anxiety by focusing on the present moment.</p>
+                    </li>
+                    <li class="tip-item slide-in">
+                        <h3>Engage in regular physical exercise</h3>
+                        <p>Exercise releases endorphins, which can improve mood and reduce stress.</p>
+                    </li>
+                    <li class="tip-item slide-in">
+                        <h3>Foster meaningful connections with others</h3>
+                        <p>Strong social connections can provide emotional support and improve overall well-being.</p>
+                    </li>
+                    <li class="tip-item slide-in">
+                        <h3>Maintain a balanced diet</h3>
+                        <p>A healthy diet can positively impact your mood and energy levels.</p>
+                    </li>
+                    <li class="tip-item slide-in">
+                        <h3>Get adequate sleep</h3>
+                        <p>Quality sleep is crucial for mental health and cognitive function.</p>
+                    </li>
+                </ul>
+                <audio controls class="slide-in audio-player">
+                    <source src="Audio/calm.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <section id="challenges" class="content-section">
+            <div class="container">
+                <h2 class="slide-in">Mental Health Challenges</h2>
+                <p class="slide-in">Common mental health challenges include anxiety, depression, and stress. These conditions can significantly impact daily life and overall well-being.</p>
+                <div class="infographic slide-in">
+                    <div class="challenge-item">
+                        <h3>Anxiety</h3>
+                        <div class="icon">😰</div>
+                        <p>Persistent, excessive worry that interferes with daily activities.</p>
+                        <ul>
+                            <li>Affects 40 million adults in the US</li>
+                            <li>Only 36.9% receive treatment</li>
+                        </ul>
+                    </div>
+                    <div class="challenge-item">
+                        <h3>Depression</h3>
+                        <div class="icon">😞</div>
+                        <p>Persistent feelings of sadness and loss of interest in activities.</p>
+                        <ul>
+                            <li>Affects 264 million people globally</li>
+                            <li>Leading cause of disability worldwide</li>
+                        </ul>
+                    </div>
+                    <div class="challenge-item">
+                        <h3>Stress</h3>
+                        <div class="icon">😓</div>
+                        <p>While not a condition itself, chronic stress can lead to mental health problems.</p>
+                        <ul>
+                            <li>77% of people experience stress that affects their physical health</li>
+                            <li>73% of people have stress that impacts their mental health</li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="take-quiz" class="cta-button slide-in btn btn-secondary">Take Mental Health Quiz</button>
+            </div>
+        </section>
+
+        <section id="get-help" class="content-section">
+            <div class="container">
+                <h2 class="slide-in">Getting Help</h2>
+                <p class="slide-in">If you're struggling with your mental health, remember that help is available. Reach out to a mental health professional or use the resources below.</p>
+                <div class="help-resources slide-in">
+                    <h3>Mental Health Resources:</h3>
+                    <ul>
+                        <li>National Suicide Prevention Lifeline: 1-800-273-8255</li>
+                        <li>Crisis Text Line: Text HOME to 741741</li>
+                        <li>SAMHSA's National Helpline: 1-800-662-4357</li>
+                    </ul>
+                </div>
+                <a href="#" class="cta-button slide-in btn btn-primary">Get Help Now</a>
+                <form id="contact-form" class="slide-in">
+                    <h3>Contact Us for More Information</h3>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
+                <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+            </div>
+            <p>&copy; 2024 Christian Jay. All rights reserved.</p>
+            <p class="quote">"Take care of your mind, and it will take care of you."</p>
+        </div>
+    </footer>
+</body>
+</html>
